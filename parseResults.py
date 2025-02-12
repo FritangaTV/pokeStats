@@ -9,7 +9,7 @@ all_files = glob.glob(os.path.join('./data/', "*.csv"))
 
 df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
 
-mask = df['Name'].isin(["psyrax", "Oscar Vera", "Rogelio Espinoza", "Rodrigo Torres Ochoa"])
+mask = df['Name'].isin(["psyrax", "Oscar Vera", "Rogelio Espinoza", "Rodrigo Torres Ochoa", "Axl Corona"])
 playerDF = df[mask]
 playerDF['date'] = pd.to_datetime(playerDF['date'])
 playerDF = playerDF.sort_values(by=['date'])
