@@ -1,41 +1,41 @@
-Position,Name,pct_pos,rank,date,event
-1,Uriel Jeddan Sanchez Cabrera,0.025,2.0,"October 18, 2024",24-10-006739
-2,,0.05,5.0,"October 18, 2024",24-10-006739
-3,Axl Corona,0.075,8.0,"October 18, 2024",24-10-006739
-4,Abraham Mena,0.1,10.0,"October 18, 2024",24-10-006739
-5,CHRISTIAN CRUZ,0.125,12.0,"October 18, 2024",24-10-006739
-6,RICARDO ANAYA,0.15,15.0,"October 18, 2024",24-10-006739
-7,Emilio García,0.175,18.0,"October 18, 2024",24-10-006739
-8,Armando M,0.2,20.0,"October 18, 2024",24-10-006739
-9,Mauricio Javier S,0.225,22.0,"October 18, 2024",24-10-006739
-10,Daniel Arellano,0.25,25.0,"October 18, 2024",24-10-006739
-11,Espinola Ortega Juan Adrian,0.275,28.0,"October 18, 2024",24-10-006739
-12,Alberto Renero,0.3,30.0,"October 18, 2024",24-10-006739
-13,Jose Miguel Jaime Magaña,0.325,32.0,"October 18, 2024",24-10-006739
-14,Omar Cervantes,0.35,35.0,"October 18, 2024",24-10-006739
-15,,0.375,38.0,"October 18, 2024",24-10-006739
-16,Alejandro Chen,0.4,40.0,"October 18, 2024",24-10-006739
-17,fernando castañeda,0.425,42.0,"October 18, 2024",24-10-006739
-18,Salvador Ruiz de Esparza,0.45,45.0,"October 18, 2024",24-10-006739
-19,Gabriel Garciacano García,0.475,48.0,"October 18, 2024",24-10-006739
-20,David Espinoza,0.5,50.0,"October 18, 2024",24-10-006739
-21,Rodrigo Mendoza,0.525,52.0,"October 18, 2024",24-10-006739
-22,Constanxa Garcia,0.55,55.0,"October 18, 2024",24-10-006739
-23,Christopher Barron,0.575,57.0,"October 18, 2024",24-10-006739
-24,Israel Ocampo,0.6,60.0,"October 18, 2024",24-10-006739
-25,Ulises Garza,0.625,62.0,"October 18, 2024",24-10-006739
-26,Javier Zamarrón,0.65,65.0,"October 18, 2024",24-10-006739
-27,Edgar Rodriguez,0.675,68.0,"October 18, 2024",24-10-006739
-28,Fatima Ramírez Domínguez,0.7,70.0,"October 18, 2024",24-10-006739
-29,Anibal Cruz,0.725,72.0,"October 18, 2024",24-10-006739
-30,psyrax,0.75,75.0,"October 18, 2024",24-10-006739
-31,Jose alberto Peñafort,0.775,78.0,"October 18, 2024",24-10-006739
-32,Carlos Ortega Casillas,0.8,80.0,"October 18, 2024",24-10-006739
-33,Renato Corona,0.825,82.0,"October 18, 2024",24-10-006739
-34,Rafael Nunez,0.85,85.0,"October 18, 2024",24-10-006739
-35,Victor Meneses,0.875,88.0,"October 18, 2024",24-10-006739
-36,Hector Diaz,0.9,90.0,"October 18, 2024",24-10-006739
-37,Emmanuel M,0.925,92.0,"October 18, 2024",24-10-006739
-38,Fernando De La O,0.95,95.0,"October 18, 2024",24-10-006739
-39,Rodrigo Ortega,0.975,98.0,"October 18, 2024",24-10-006739
-40,Muebleitor,1.0,100.0,"October 18, 2024",24-10-006739
+Position,Name,pct_pos,rank,date,event,event_type,event_name
+1,Uriel Jeddan Sanchez Cabrera,0.025,2.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+2,,0.05,5.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+3,Axl Corona,0.075,8.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+4,Abraham Mena,0.1,10.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+5,CHRISTIAN CRUZ,0.125,12.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+6,RICARDO ANAYA,0.15,15.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+7,Emilio García,0.175,18.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+8,Armando M,0.2,20.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+9,Mauricio Javier S,0.225,22.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+10,Daniel Arellano,0.25,25.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+11,Espinola Ortega Juan Adrian,0.275,28.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+12,Alberto Renero,0.3,30.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+13,Jose Miguel Jaime Magaña,0.325,32.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+14,Omar Cervantes,0.35,35.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+15,,0.375,38.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+16,Alejandro Chen,0.4,40.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+17,fernando castañeda,0.425,42.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+18,Salvador Ruiz de Esparza,0.45,45.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+19,Gabriel Garciacano García,0.475,48.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+20,David Espinoza,0.5,50.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+21,Rodrigo Mendoza,0.525,52.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+22,Constanxa Garcia,0.55,55.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+23,Christopher Barron,0.575,57.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+24,Israel Ocampo,0.6,60.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+25,Ulises Garza,0.625,62.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+26,Javier Zamarrón,0.65,65.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+27,Edgar Rodriguez,0.675,68.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+28,Fatima Ramírez Domínguez,0.7,70.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+29,Anibal Cruz,0.725,72.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+30,psyrax,0.75,75.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+31,Jose alberto Peñafort,0.775,78.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+32,Carlos Ortega Casillas,0.8,80.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+33,Renato Corona,0.825,82.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+34,Rafael Nunez,0.85,85.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+35,Victor Meneses,0.875,88.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+36,Hector Diaz,0.9,90.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+37,Emmanuel M,0.925,92.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+38,Fernando De La O,0.95,95.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+39,Rodrigo Ortega,0.975,98.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"
+40,Muebleitor,1.0,100.0,"October 18, 2024",24-10-006739,League,"Kodama - Pokemon - Octubre 18, 2024"

@@ -1,33 +1,33 @@
-Position,Name,pct_pos,rank,date,event
-1,ElNeneMalo_TCG,0.03125,3.0,"September 05, 2024",24-09-006294
-2,Abraham Torres,0.0625,6.0,"September 05, 2024",24-09-006294
-3,Carlos Lobo,0.09375,9.0,"September 05, 2024",24-09-006294
-4,Edgar Rodriguez,0.125,12.0,"September 05, 2024",24-09-006294
-5,Jose Miguel Jaime Magaña,0.15625,16.0,"September 05, 2024",24-09-006294
-6,DAustria,0.1875,19.0,"September 05, 2024",24-09-006294
-7,Mauricio Javier S,0.21875,22.0,"September 05, 2024",24-09-006294
-8,Jose alberto Peñafort,0.25,25.0,"September 05, 2024",24-09-006294
-9,Espinola Ortega Juan Adrian,0.28125,28.0,"September 05, 2024",24-09-006294
-10,Erasmo Rodriguez,0.3125,31.0,"September 05, 2024",24-09-006294
-11,Josué Rodolfo Castillo Olvera,0.34375,34.0,"September 05, 2024",24-09-006294
-12,Axl Corona,0.375,38.0,"September 05, 2024",24-09-006294
-13,Rogelio Espinoza,0.40625,41.0,"September 05, 2024",24-09-006294
-14,Vladimir Ham,0.4375,44.0,"September 05, 2024",24-09-006294
-15,Emiliano Huang,0.46875,47.0,"September 05, 2024",24-09-006294
-16,Rolando Coronado,0.5,50.0,"September 05, 2024",24-09-006294
-17,CHRISTIAN CRUZ,0.53125,53.0,"September 05, 2024",24-09-006294
-18,joaquin gonzalez,0.5625,56.0,"September 05, 2024",24-09-006294
-19,Metal220,0.59375,59.0,"September 05, 2024",24-09-006294
-20,José Luis García Landa,0.625,62.0,"September 05, 2024",24-09-006294
-21,Aveljim,0.65625,66.0,"September 05, 2024",24-09-006294
-22,psyrax,0.6875,69.0,"September 05, 2024",24-09-006294
-23,Aradia Garcia,0.71875,72.0,"September 05, 2024",24-09-006294
-24,Rodolfo Hernandez,0.75,75.0,"September 05, 2024",24-09-006294
-25,Ruth M,0.78125,78.0,"September 05, 2024",24-09-006294
-26,Rodrigo Torres Ochoa,0.8125,81.0,"September 05, 2024",24-09-006294
-27,Luis Duran,0.84375,84.0,"September 05, 2024",24-09-006294
-28,Arturo Ortega,0.875,88.0,"September 05, 2024",24-09-006294
-29,Francisco Javier R,0.90625,91.0,"September 05, 2024",24-09-006294
-30,Erick Ballesteros,0.9375,94.0,"September 05, 2024",24-09-006294
-31,fernando castañeda,0.96875,97.0,"September 05, 2024",24-09-006294
-32,Alexander Licona,1.0,100.0,"September 05, 2024",24-09-006294
+Position,Name,pct_pos,rank,date,event,event_type,event_name
+1,ElNeneMalo_TCG,0.03125,3.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+2,Abraham Torres,0.0625,6.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+3,Carlos Lobo,0.09375,9.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+4,Edgar Rodriguez,0.125,12.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+5,Jose Miguel Jaime Magaña,0.15625,16.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+6,DAustria,0.1875,19.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+7,Mauricio Javier S,0.21875,22.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+8,Jose alberto Peñafort,0.25,25.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+9,Espinola Ortega Juan Adrian,0.28125,28.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+10,Erasmo Rodriguez,0.3125,31.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+11,Josué Rodolfo Castillo Olvera,0.34375,34.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+12,Axl Corona,0.375,38.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+13,Rogelio Espinoza,0.40625,41.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+14,Vladimir Ham,0.4375,44.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+15,Emiliano Huang,0.46875,47.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+16,Rolando Coronado,0.5,50.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+17,CHRISTIAN CRUZ,0.53125,53.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+18,joaquin gonzalez,0.5625,56.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+19,Metal220,0.59375,59.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+20,José Luis García Landa,0.625,62.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+21,Aveljim,0.65625,66.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+22,psyrax,0.6875,69.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+23,Aradia Garcia,0.71875,72.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+24,Rodolfo Hernandez,0.75,75.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+25,Ruth M,0.78125,78.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+26,Rodrigo Torres Ochoa,0.8125,81.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+27,Luis Duran,0.84375,84.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+28,Arturo Ortega,0.875,88.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+29,Francisco Javier R,0.90625,91.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+30,Erick Ballesteros,0.9375,94.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+31,fernando castañeda,0.96875,97.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM
+32,Alexander Licona,1.0,100.0,"September 05, 2024",24-09-006294,League Challenge,League Challenge Septiembre MdM

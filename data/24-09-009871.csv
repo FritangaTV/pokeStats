@@ -1,15 +1,15 @@
-Position,Name,pct_pos,rank,date,event
-1,Jose Miguel Jaime Magaña,0.07142857142857142,7.0,"September 03, 2024",24-09-009871
-2,Rodrigo Torres Ochoa,0.14285714285714285,14.0,"September 03, 2024",24-09-009871
-3,Raúl Pineda,0.21428571428571427,21.0,"September 03, 2024",24-09-009871
-4,Rolando Coronado,0.2857142857142857,29.0,"September 03, 2024",24-09-009871
-5,Metal220,0.35714285714285715,36.0,"September 03, 2024",24-09-009871
-6,Josué Rodolfo Castillo Olvera,0.42857142857142855,43.0,"September 03, 2024",24-09-009871
-7,Alexis Alfredo Lopez Gordillo,0.5,50.0,"September 03, 2024",24-09-009871
-8,Edgar Luna,0.5714285714285714,57.0,"September 03, 2024",24-09-009871
-9,Fernando Pérez,0.6428571428571429,64.0,"September 03, 2024",24-09-009871
-10,A P,0.7142857142857143,71.0,"September 03, 2024",24-09-009871
-11,Rodolfo Hernandez,0.7857142857142857,79.0,"September 03, 2024",24-09-009871
-12,psyrax,0.8571428571428571,86.0,"September 03, 2024",24-09-009871
-13,jesus olguin,0.9285714285714286,93.0,"September 03, 2024",24-09-009871
-14,JC Martínez,1.0,100.0,"September 03, 2024",24-09-009871
+Position,Name,pct_pos,rank,date,event,event_type,event_name
+1,Jose Miguel Jaime Magaña,0.07142857142857142,7.0,"September 03, 2024",24-09-009871,League,Pokemartes
+2,Rodrigo Torres Ochoa,0.14285714285714285,14.0,"September 03, 2024",24-09-009871,League,Pokemartes
+3,Raúl Pineda,0.21428571428571427,21.0,"September 03, 2024",24-09-009871,League,Pokemartes
+4,Rolando Coronado,0.2857142857142857,29.0,"September 03, 2024",24-09-009871,League,Pokemartes
+5,Metal220,0.35714285714285715,36.0,"September 03, 2024",24-09-009871,League,Pokemartes
+6,Josué Rodolfo Castillo Olvera,0.42857142857142855,43.0,"September 03, 2024",24-09-009871,League,Pokemartes
+7,Alexis Alfredo Lopez Gordillo,0.5,50.0,"September 03, 2024",24-09-009871,League,Pokemartes
+8,Edgar Luna,0.5714285714285714,57.0,"September 03, 2024",24-09-009871,League,Pokemartes
+9,Fernando Pérez,0.6428571428571429,64.0,"September 03, 2024",24-09-009871,League,Pokemartes
+10,A P,0.7142857142857143,71.0,"September 03, 2024",24-09-009871,League,Pokemartes
+11,Rodolfo Hernandez,0.7857142857142857,79.0,"September 03, 2024",24-09-009871,League,Pokemartes
+12,psyrax,0.8571428571428571,86.0,"September 03, 2024",24-09-009871,League,Pokemartes
+13,jesus olguin,0.9285714285714286,93.0,"September 03, 2024",24-09-009871,League,Pokemartes
+14,JC Martínez,1.0,100.0,"September 03, 2024",24-09-009871,League,Pokemartes

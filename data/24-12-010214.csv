@@ -1,20 +1,20 @@
-Position,Name,pct_pos,rank,date,event
-1,Josue Peredo Lopez,0.05263157894736842,5.0,"December 26, 2024",24-12-010214
-2,Carlos Lobo,0.10526315789473684,11.0,"December 26, 2024",24-12-010214
-3,Edgar Luna,0.15789473684210525,16.0,"December 26, 2024",24-12-010214
-4,Eduardo Tovar,0.21052631578947367,21.0,"December 26, 2024",24-12-010214
-5,ElNeneMalo_TCG,0.2631578947368421,26.0,"December 26, 2024",24-12-010214
-6,Uriel Arturo López Mejía,0.3157894736842105,32.0,"December 26, 2024",24-12-010214
-7,Luis Enrique González Muñoz,0.3684210526315789,37.0,"December 26, 2024",24-12-010214
-8,Mychal Amann,0.42105263157894735,42.0,"December 26, 2024",24-12-010214
-9,Raúl Merino,0.47368421052631576,47.0,"December 26, 2024",24-12-010214
-10,Oscar Vera,0.5263157894736842,53.0,"December 26, 2024",24-12-010214
-11,Alberto Bonsanto,0.5789473684210527,58.0,"December 26, 2024",24-12-010214
-12,TheJaimonster,0.631578947368421,63.0,"December 26, 2024",24-12-010214
-13,,0.6842105263157895,68.0,"December 26, 2024",24-12-010214
-14,Rogelio Espinoza,0.7368421052631579,74.0,"December 26, 2024",24-12-010214
-15,psyrax,0.7894736842105263,79.0,"December 26, 2024",24-12-010214
-16,Agustin Morales,0.8421052631578947,84.0,"December 26, 2024",24-12-010214
-17,[Screen name not set],0.8947368421052632,89.0,"December 26, 2024",24-12-010214
-18,,0.9473684210526315,95.0,"December 26, 2024",24-12-010214
-19,Uriel Jeddan Sanchez Cabrera,1.0,100.0,"December 26, 2024",24-12-010214
+Position,Name,pct_pos,rank,date,event,event_type,event_name
+1,Josue Peredo Lopez,0.05263157894736842,5.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+2,Carlos Lobo,0.10526315789473684,11.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+3,Edgar Luna,0.15789473684210525,16.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+4,Eduardo Tovar,0.21052631578947367,21.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+5,ElNeneMalo_TCG,0.2631578947368421,26.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+6,Uriel Arturo López Mejía,0.3157894736842105,32.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+7,Luis Enrique González Muñoz,0.3684210526315789,37.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+8,Mychal Amann,0.42105263157894735,42.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+9,Raúl Merino,0.47368421052631576,47.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+10,Oscar Vera,0.5263157894736842,53.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+11,Alberto Bonsanto,0.5789473684210527,58.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+12,TheJaimonster,0.631578947368421,63.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+13,,0.6842105263157895,68.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+14,Rogelio Espinoza,0.7368421052631579,74.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+15,psyrax,0.7894736842105263,79.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+16,Agustin Morales,0.8421052631578947,84.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+17,[Screen name not set],0.8947368421052632,89.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+18,,0.9473684210526315,95.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024
+19,Uriel Jeddan Sanchez Cabrera,1.0,100.0,"December 26, 2024",24-12-010214,League,The Nest - Liga Pokémon - Jueves 26 De Diciembre 2024

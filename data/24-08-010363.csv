@@ -1,32 +1,32 @@
-Position,Name,pct_pos,rank,date,event
-1,KrisMartzMars,0.03225806451612903,3.0,"August 31, 2024",24-08-010363
-2,Salvador Ruiz de Esparza,0.06451612903225806,6.0,"August 31, 2024",24-08-010363
-3,Genaro Aurelio Martínez Arias,0.0967741935483871,10.0,"August 31, 2024",24-08-010363
-4,Erick Ballesteros,0.12903225806451613,13.0,"August 31, 2024",24-08-010363
-5,Diego Lezama,0.16129032258064516,16.0,"August 31, 2024",24-08-010363
-6,Cristian Rivera,0.1935483870967742,19.0,"August 31, 2024",24-08-010363
-7,César Daniel Sánchez García,0.22580645161290322,23.0,"August 31, 2024",24-08-010363
-8,,0.25806451612903225,26.0,"August 31, 2024",24-08-010363
-9,Momo17TV,0.2903225806451613,29.0,"August 31, 2024",24-08-010363
-10,Daniel Arellano,0.3225806451612903,32.0,"August 31, 2024",24-08-010363
-11,Brenda Cruz,0.3548387096774194,35.0,"August 31, 2024",24-08-010363
-12,Alejandro Vinay,0.3870967741935484,39.0,"August 31, 2024",24-08-010363
-13,,0.41935483870967744,42.0,"August 31, 2024",24-08-010363
-14,NAHOTO MUÑOZ,0.45161290322580644,45.0,"August 31, 2024",24-08-010363
-15,Fernando Ayala,0.4838709677419355,48.0,"August 31, 2024",24-08-010363
-16,hortero barbosa,0.5161290322580645,52.0,"August 31, 2024",24-08-010363
-17,Gabriel Sánchez Margolis,0.5483870967741935,55.0,"August 31, 2024",24-08-010363
-18,psyrax,0.5806451612903226,58.0,"August 31, 2024",24-08-010363
-19,Victor Ricardo González Martínez,0.6129032258064516,61.0,"August 31, 2024",24-08-010363
-20,Gael Garcia Naranjo,0.6451612903225806,65.0,"August 31, 2024",24-08-010363
-21,Aveljim,0.6774193548387096,68.0,"August 31, 2024",24-08-010363
-22,Daniel Vazquez,0.7096774193548387,71.0,"August 31, 2024",24-08-010363
-23,Rafael C,0.7419354838709677,74.0,"August 31, 2024",24-08-010363
-24,israel lopez,0.7741935483870968,77.0,"August 31, 2024",24-08-010363
-25,Sebastian Garay,0.8064516129032258,81.0,"August 31, 2024",24-08-010363
-26,Lupita Galaviz,0.8387096774193549,84.0,"August 31, 2024",24-08-010363
-27,Paul J,0.8709677419354839,87.0,"August 31, 2024",24-08-010363
-28,Antonio Alonso Dominguez,0.9032258064516129,90.0,"August 31, 2024",24-08-010363
-29,Raul Rocha,0.9354838709677419,94.0,"August 31, 2024",24-08-010363
-30,Alan Ponce,0.967741935483871,97.0,"August 31, 2024",24-08-010363
-31,carlos cuamatzi,1.0,100.0,"August 31, 2024",24-08-010363
+Position,Name,pct_pos,rank,date,event,event_type,event_name
+1,KrisMartzMars,0.03225806451612903,3.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+2,Salvador Ruiz de Esparza,0.06451612903225806,6.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+3,Genaro Aurelio Martínez Arias,0.0967741935483871,10.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+4,Erick Ballesteros,0.12903225806451613,13.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+5,Diego Lezama,0.16129032258064516,16.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+6,Cristian Rivera,0.1935483870967742,19.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+7,César Daniel Sánchez García,0.22580645161290322,23.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+8,,0.25806451612903225,26.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+9,Momo17TV,0.2903225806451613,29.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+10,Daniel Arellano,0.3225806451612903,32.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+11,Brenda Cruz,0.3548387096774194,35.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+12,Alejandro Vinay,0.3870967741935484,39.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+13,,0.41935483870967744,42.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+14,NAHOTO MUÑOZ,0.45161290322580644,45.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+15,Fernando Ayala,0.4838709677419355,48.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+16,hortero barbosa,0.5161290322580645,52.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+17,Gabriel Sánchez Margolis,0.5483870967741935,55.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+18,psyrax,0.5806451612903226,58.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+19,Victor Ricardo González Martínez,0.6129032258064516,61.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+20,Gael Garcia Naranjo,0.6451612903225806,65.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+21,Aveljim,0.6774193548387096,68.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+22,Daniel Vazquez,0.7096774193548387,71.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+23,Rafael C,0.7419354838709677,74.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+24,israel lopez,0.7741935483870968,77.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+25,Sebastian Garay,0.8064516129032258,81.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+26,Lupita Galaviz,0.8387096774193549,84.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+27,Paul J,0.8709677419354839,87.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+28,Antonio Alonso Dominguez,0.9032258064516129,90.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+29,Raul Rocha,0.9354838709677419,94.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+30,Alan Ponce,0.967741935483871,97.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral
+31,carlos cuamatzi,1.0,100.0,"August 31, 2024",24-08-010363,Pre Release,Prelanzamiento de Escarlata & Purpura Corona Astral

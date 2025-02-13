@@ -1,14 +1,14 @@
-Position,Name,pct_pos,rank,date,event
-1,Alberto Bonsanto,0.07692307692307693,8.0,"November 28, 2024",24-11-012952
-2,Rogelio Espinoza,0.15384615384615385,15.0,"November 28, 2024",24-11-012952
-3,Raúl Merino,0.23076923076923078,23.0,"November 28, 2024",24-11-012952
-4,Boogiewax,0.3076923076923077,31.0,"November 28, 2024",24-11-012952
-5,Diego Fernando Martínez,0.38461538461538464,38.0,"November 28, 2024",24-11-012952
-6,Oscar Vera,0.46153846153846156,46.0,"November 28, 2024",24-11-012952
-7,Hector Adrian Pio Robles Sanchez,0.5384615384615384,54.0,"November 28, 2024",24-11-012952
-8,psyrax,0.6153846153846154,62.0,"November 28, 2024",24-11-012952
-9,Benjamin Ruiz Valdez,0.6923076923076923,69.0,"November 28, 2024",24-11-012952
-10,,0.7692307692307693,77.0,"November 28, 2024",24-11-012952
-11,TheJaimonster,0.8461538461538461,85.0,"November 28, 2024",24-11-012952
-12,iRicardito,0.9230769230769231,92.0,"November 28, 2024",24-11-012952
-13,Manuel S,1.0,100.0,"November 28, 2024",24-11-012952
+Position,Name,pct_pos,rank,date,event,event_type,event_name
+1,Alberto Bonsanto,0.07692307692307693,8.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre
+2,Rogelio Espinoza,0.15384615384615385,15.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre
+3,Raúl Merino,0.23076923076923078,23.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre
+4,Boogiewax,0.3076923076923077,31.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre
+5,Diego Fernando Martínez,0.38461538461538464,38.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre
+6,Oscar Vera,0.46153846153846156,46.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre
+7,Hector Adrian Pio Robles Sanchez,0.5384615384615384,54.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre
+8,psyrax,0.6153846153846154,62.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre
+9,Benjamin Ruiz Valdez,0.6923076923076923,69.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre
+10,,0.7692307692307693,77.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre
+11,TheJaimonster,0.8461538461538461,85.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre
+12,iRicardito,0.9230769230769231,92.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre
+13,Manuel S,1.0,100.0,"November 28, 2024",24-11-012952,League Challenge,The Nest - LEAGUE CHALLENGE TCG - Noviembre

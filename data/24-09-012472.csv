@@ -1,50 +1,50 @@
-Position,Name,pct_pos,rank,date,event
-1,Oscar Vera,0.02040816326530612,2.0,"September 27, 2024",24-09-012472
-2,Axl Corona,0.04081632653061224,4.0,"September 27, 2024",24-09-012472
-3,Eduardo F,0.061224489795918366,6.0,"September 27, 2024",24-09-012472
-4,Pablo Meza,0.08163265306122448,8.0,"September 27, 2024",24-09-012472
-5,Erik Ortega,0.10204081632653061,10.0,"September 27, 2024",24-09-012472
-6,Luis Duran,0.12244897959183673,12.0,"September 27, 2024",24-09-012472
-7,José Luis Dávila Hernández,0.14285714285714285,14.0,"September 27, 2024",24-09-012472
-8,Ares marat Salas correa,0.16326530612244897,16.0,"September 27, 2024",24-09-012472
-9,Frank Rojas,0.1836734693877551,18.0,"September 27, 2024",24-09-012472
-10,hanzell ivan caballero gutierrez zamora,0.20408163265306123,20.0,"September 27, 2024",24-09-012472
-11,Victor Meneses,0.22448979591836735,22.0,"September 27, 2024",24-09-012472
-12,Gabriel Garciacano García,0.24489795918367346,24.0,"September 27, 2024",24-09-012472
-13,ANTONIO REYES,0.2653061224489796,27.0,"September 27, 2024",24-09-012472
-14,Busefaloking Nito,0.2857142857142857,29.0,"September 27, 2024",24-09-012472
-15,Jorge Roberto Chiñas López,0.30612244897959184,31.0,"September 27, 2024",24-09-012472
-16,Mauricio Javier S,0.32653061224489793,33.0,"September 27, 2024",24-09-012472
-17,KingKobbu,0.3469387755102041,35.0,"September 27, 2024",24-09-012472
-18,Rodolfo Hernandez,0.3673469387755102,37.0,"September 27, 2024",24-09-012472
-19,Raúl Pineda,0.3877551020408163,39.0,"September 27, 2024",24-09-012472
-20,Bernyabg,0.40816326530612246,41.0,"September 27, 2024",24-09-012472
-21,CRACKGERTO,0.42857142857142855,43.0,"September 27, 2024",24-09-012472
-22,Aveljim,0.4489795918367347,45.0,"September 27, 2024",24-09-012472
-23,Muebleitor,0.46938775510204084,47.0,"September 27, 2024",24-09-012472
-24,David Espinoza,0.4897959183673469,49.0,"September 27, 2024",24-09-012472
-25,,0.5102040816326531,51.0,"September 27, 2024",24-09-012472
-26,Rodrigo Torres Ochoa,0.5306122448979592,53.0,"September 27, 2024",24-09-012472
-27,SERGIO O,0.5510204081632653,55.0,"September 27, 2024",24-09-012472
-28,Mario Calles,0.5714285714285714,57.0,"September 27, 2024",24-09-012472
-29,Daniel Vazquez,0.5918367346938775,59.0,"September 27, 2024",24-09-012472
-30,Andres Corona herrera,0.6122448979591837,61.0,"September 27, 2024",24-09-012472
-31,Jonathan Ferrusca,0.6326530612244898,63.0,"September 27, 2024",24-09-012472
-32,Salvador Ruiz de Esparza,0.6530612244897959,65.0,"September 27, 2024",24-09-012472
-33,Rodrigo Mendoza,0.673469387755102,67.0,"September 27, 2024",24-09-012472
-34,Emiliano Huang,0.6938775510204082,69.0,"September 27, 2024",24-09-012472
-35,Emanuel Cañada,0.7142857142857143,71.0,"September 27, 2024",24-09-012472
-36,psyrax,0.7346938775510204,73.0,"September 27, 2024",24-09-012472
-37,Manlio Roberto Carlos Ugalde Campuzano,0.7551020408163265,76.0,"September 27, 2024",24-09-012472
-38,Jose Miguel Jaime Magaña,0.7755102040816326,78.0,"September 27, 2024",24-09-012472
-39,Fatima Ramírez Domínguez,0.7959183673469388,80.0,"September 27, 2024",24-09-012472
-40,Rafael Nunez,0.8163265306122449,82.0,"September 27, 2024",24-09-012472
-41,Alberto Bonsanto,0.8367346938775511,84.0,"September 27, 2024",24-09-012472
-42,Javier Arellano,0.8571428571428571,86.0,"September 27, 2024",24-09-012472
-43,fernando castañeda,0.8775510204081632,88.0,"September 27, 2024",24-09-012472
-44,Abraham Mena,0.8979591836734694,90.0,"September 27, 2024",24-09-012472
-45,Arturo Ortega,0.9183673469387755,92.0,"September 27, 2024",24-09-012472
-46,Armando Ponce,0.9387755102040817,94.0,"September 27, 2024",24-09-012472
-47,Jose alberto Peñafort,0.9591836734693877,96.0,"September 27, 2024",24-09-012472
-48,Edgar Rodriguez,0.9795918367346939,98.0,"September 27, 2024",24-09-012472
-49,joaquin gonzalez,1.0,100.0,"September 27, 2024",24-09-012472
+Position,Name,pct_pos,rank,date,event,event_type,event_name
+1,Oscar Vera,0.02040816326530612,2.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+2,Axl Corona,0.04081632653061224,4.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+3,Eduardo F,0.061224489795918366,6.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+4,Pablo Meza,0.08163265306122448,8.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+5,Erik Ortega,0.10204081632653061,10.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+6,Luis Duran,0.12244897959183673,12.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+7,José Luis Dávila Hernández,0.14285714285714285,14.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+8,Ares marat Salas correa,0.16326530612244897,16.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+9,Frank Rojas,0.1836734693877551,18.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+10,hanzell ivan caballero gutierrez zamora,0.20408163265306123,20.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+11,Victor Meneses,0.22448979591836735,22.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+12,Gabriel Garciacano García,0.24489795918367346,24.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+13,ANTONIO REYES,0.2653061224489796,27.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+14,Busefaloking Nito,0.2857142857142857,29.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+15,Jorge Roberto Chiñas López,0.30612244897959184,31.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+16,Mauricio Javier S,0.32653061224489793,33.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+17,KingKobbu,0.3469387755102041,35.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+18,Rodolfo Hernandez,0.3673469387755102,37.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+19,Raúl Pineda,0.3877551020408163,39.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+20,Bernyabg,0.40816326530612246,41.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+21,CRACKGERTO,0.42857142857142855,43.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+22,Aveljim,0.4489795918367347,45.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+23,Muebleitor,0.46938775510204084,47.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+24,David Espinoza,0.4897959183673469,49.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+25,,0.5102040816326531,51.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+26,Rodrigo Torres Ochoa,0.5306122448979592,53.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+27,SERGIO O,0.5510204081632653,55.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+28,Mario Calles,0.5714285714285714,57.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+29,Daniel Vazquez,0.5918367346938775,59.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+30,Andres Corona herrera,0.6122448979591837,61.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+31,Jonathan Ferrusca,0.6326530612244898,63.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+32,Salvador Ruiz de Esparza,0.6530612244897959,65.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+33,Rodrigo Mendoza,0.673469387755102,67.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+34,Emiliano Huang,0.6938775510204082,69.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+35,Emanuel Cañada,0.7142857142857143,71.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+36,psyrax,0.7346938775510204,73.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+37,Manlio Roberto Carlos Ugalde Campuzano,0.7551020408163265,76.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+38,Jose Miguel Jaime Magaña,0.7755102040816326,78.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+39,Fatima Ramírez Domínguez,0.7959183673469388,80.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+40,Rafael Nunez,0.8163265306122449,82.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+41,Alberto Bonsanto,0.8367346938775511,84.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+42,Javier Arellano,0.8571428571428571,86.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+43,fernando castañeda,0.8775510204081632,88.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+44,Abraham Mena,0.8979591836734694,90.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+45,Arturo Ortega,0.9183673469387755,92.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+46,Armando Ponce,0.9387755102040817,94.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+47,Jose alberto Peñafort,0.9591836734693877,96.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+48,Edgar Rodriguez,0.9795918367346939,98.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
+49,joaquin gonzalez,1.0,100.0,"September 27, 2024",24-09-012472,League Challenge,TCG League Challenge Kodama Septiembre 2024
