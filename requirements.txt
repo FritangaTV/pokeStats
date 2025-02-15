@@ -12,5 +12,7 @@ ordered-set==4.1.0
 platformdirs==4.2.2
 plotly==6.0.0
 pycryptodome==3.21.0
+statsmodels==0.14.4
 streamlit==1.42.0
 tomli==2.0.1
+tqdm==4.67.1
