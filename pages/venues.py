@@ -2,10 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-st.set_page_config(
-    layout="wide",
-    page_title="Eventos - Pokemon TCG Stats del tio Pay",
-)
+
 
 st.header("Stats de lugares")
 
