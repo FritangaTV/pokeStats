@@ -36,20 +36,59 @@ for event in eventsDict['rows']:
 
 print('Found {} events'.format(len(eventUrls)))
 
+allEventData = []
+
+def getEventInfo(eventContent, selector, eventDict):
+    element = eventContent.select_one(selector)
+    for eventInfo in element.find_all('li'):
+        infoKey = eventInfo.select_one('label').text
+        infoData = eventInfo.text.replace(infoKey, '').strip()
+        eventDict[infoKey] = infoData
+    return eventDict
+
+def getEventType(premiereString):
+    eventString = 'None'
+    if premiereString == "None":
+        eventString = 'League'
+    elif "League Cup" in premiereString:
+        eventString = 'League Cup'
+    elif "Regional Championships" in premiereString:
+        eventString = 'Regional Championships'
+    elif "International Championships" in premiereString:
+        eventString = 'International Championships'
+    elif "World Championships" in premiereString:
+        eventString = 'World Championships'
+    elif "Special Event" in premiereString:
+        eventString = 'Special Event'
+    elif "Midseason Showdown" in premiereString:
+        eventString = 'Midseason Showdown'
+    elif "League Challenge" in premiereString:
+        eventString = 'League Challenge'
+    elif "Prerelease" in premiereString:
+        eventString = 'Pre Release'
+    return eventString
+
 for i in trange(len(eventUrls)):
     eventUrl = eventUrls[i]
     try:
         r = requests.get(baseUrl + eventUrl, cookies=cj)
         eventContent = BeautifulSoup(r.content, "lxml")
-        infoSelector = '#mainContent > div > div.roundedBucket-mid > div.oneColumn-twoColumns > div.col2 > div > div > div > div > form:nth-child(1) > fieldset > div.bot > dl > div > ol'
-        eventInfoContainer = eventContent.select_one(infoSelector)
-        eventData = eventInfoContainer.find_all('li')
         eventDict = {}
-        for eventInfo in eventData:
-            infoKey = eventInfo.select_one('label').text
-            infoData = eventInfo.text.replace(infoKey, '').strip()
-            eventDict[infoKey] = infoData
+        infoSelector = '#mainContent > div > div.roundedBucket-mid > div.oneColumn-twoColumns > div.col2 > div > div > div > div > form:nth-child(1) > fieldset > div.bot > dl > div > ol'
+        eventDict = getEventInfo(eventContent, infoSelector, eventDict)
             
+        venueInfoSelector = '#mainContent > div > div.roundedBucket-mid > div.oneColumn-twoColumns > div.col2 > div > div > div > div > form:nth-child(3) > fieldset:nth-child(2) > div.bot > ol'    
+        eventDict = getEventInfo(eventContent, venueInfoSelector, eventDict)
+        
+        otherInfoSelector = '#mainContent > div > div.roundedBucket-mid > div.oneColumn-twoColumns > div.col2 > div > div > div > div > form:nth-child(3) > fieldset:nth-child(4) > div.bot > ol'
+        
+        eventDict = getEventInfo(eventContent, otherInfoSelector, eventDict)
+        
+        playersSelector = '#mainContent > div > div.roundedBucket-mid > div.oneColumn-twoColumns > div.col2 > div > div > div > div > form:nth-child(3) > fieldset:nth-child(5) > div.bot > ol'
+        eventDict = getEventInfo(eventContent, playersSelector, eventDict)
+
+        eventDict['Event Type'] = getEventType(eventDict["Premier Event"]) 
+        
         with open('data/{}.json'.format(eventDict['Tournament ID']), 'w') as f:
             json.dump(eventDict, f, ensure_ascii=False, indent=4)
 
@@ -68,34 +107,22 @@ for i in trange(len(eventUrls)):
                         df['rank'] = (df['pct_pos']*100).round()
                         df['date'] = eventDict['Date']
                         df['event'] = eventDict['Tournament ID']
-                        if eventDict["Premier Event"] == "None":
-                            df['event_type'] = 'League'
-                        elif "League Cup" in eventDict["Premier Event"]:
-                            df['event_type'] = 'League Cup'
-                        elif "Regional Championships" in eventDict["Premier Event"]:
-                            df['event_type'] = 'Regional Championships'
-                        elif "International Championships" in eventDict["Premier Event"]:
-                            df['event_type'] = 'International Championships'
-                        elif "World Championships" in eventDict["Premier Event"]:
-                            df['event_type'] = 'World Championships'
-                        elif "Special Event" in eventDict["Premier Event"]:
-                            df['event_type'] = 'Special Event'
-                        elif "Midseason Showdown" in eventDict["Premier Event"]:
-                            df['event_type'] = 'Midseason Showdown'
-                        elif "League Challenge" in eventDict["Premier Event"]:
-                            df['event_type'] = 'League Challenge'
-                        elif "Prerelease" in eventDict["Premier Event"]:
-                            df['event_type'] = 'Pre Release'
+                        df['event_type'] = getEventType(eventDict["Premier Event"])
                         df["event_name"] = eventDict["Tournament Name"]
                         df.to_csv('data/{}.csv'.format(eventDict['Tournament ID']), index=False)
                         break    
                 break
+        allEventData.append(eventDict)
     except Exception as e:
         logger.error('Error in event: ' + eventUrl)
-        logger.error(eventContent)
         logger.error(e)
+        logger.error(eventContent)
         
-all_files = glob.glob(os.path.join('./data/', "*.csv"))
+        
 
+event_df = pd.DataFrame(allEventData)
+event_df.to_csv('data/all_events.csv', index=False)
+
+all_files = glob.glob(os.path.join('./data/', "*.csv"))
 df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
 df.to_csv('data/all.csv', index=False)
