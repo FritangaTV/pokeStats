@@ -89,7 +89,7 @@ for i in trange(len(eventUrls)):
 
         eventDict['Event Type'] = getEventType(eventDict["Premier Event"]) 
         
-        with open('data/{}.json'.format(eventDict['Tournament ID']), 'w') as f:
+        with open('data/events/{}.json'.format(eventDict['Tournament ID']), 'w') as f:
             json.dump(eventDict, f, ensure_ascii=False, indent=4)
 
 
@@ -109,7 +109,7 @@ for i in trange(len(eventUrls)):
                         df['event'] = eventDict['Tournament ID']
                         df['event_type'] = getEventType(eventDict["Premier Event"])
                         df["event_name"] = eventDict["Tournament Name"]
-                        df.to_csv('data/{}.csv'.format(eventDict['Tournament ID']), index=False)
+                        df.to_csv('data/standings/{}.csv'.format(eventDict['Tournament ID']), index=False)
                         break    
                 break
         allEventData.append(eventDict)
@@ -121,8 +121,8 @@ for i in trange(len(eventUrls)):
         
 
 event_df = pd.DataFrame(allEventData)
-event_df.to_csv('data/all_events.csv', index=False)
+event_df.to_csv('data/events/all_events.csv', index=False)
 
-all_files = glob.glob(os.path.join('./data/', "*.csv"))
+all_files = glob.glob(os.path.join('./data/standings/', "*.csv"))
 df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
-df.to_csv('data/all.csv', index=False)
+df.to_csv('data/standings/all.csv', index=False)

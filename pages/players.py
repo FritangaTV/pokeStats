@@ -4,7 +4,7 @@ import plotly.express as px
 
 
 
-df = pd.read_csv('./data/all.csv', low_memory=False)
+df = pd.read_csv('./data/standings/all.csv', low_memory=False)
 df['date'] = pd.to_datetime(df['date'])
 st.title("Filtros")
 st.text("Puedes seleccionar los jugadores y eventos que quieras ver en el grafico de abajo. Por favor se amable y no me critiques por mi desempeño en los torneos, soy un tio muy sensible.")

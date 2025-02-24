@@ -6,7 +6,7 @@ import plotly.express as px
 
 st.header("Stats de lugares")
 
-venuesDF = pd.read_csv('./data/all_events.csv')
+venuesDF = pd.read_csv('./data/events/all_events.csv')
 venuesDF['Date'] = pd.to_datetime(venuesDF['Date'])
 venuesDF = venuesDF.sort_values(by=['Date']).reset_index(drop=True)
 
