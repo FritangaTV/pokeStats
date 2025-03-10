@@ -89,7 +89,7 @@ for i in trange(len(eventUrls)):
         eventDict = getEventInfo(eventContent, playersSelector, eventDict)
 
         eventDict['Event Type'] = getEventType(eventDict["Premier Event"])
-        
+        allEventData.append(eventDict)
         if os.path.exists('data/events/{}.json'.format(eventDict['Tournament ID'])):
             continue
         
@@ -116,7 +116,7 @@ for i in trange(len(eventUrls)):
                         df.to_csv('data/standings/{}.csv'.format(eventDict['Tournament ID']), index=False)
                         break    
                 break
-        allEventData.append(eventDict)
+       
     except Exception as e:
         logger.error('Error in event: ' + eventUrl)
         logger.error(e)
