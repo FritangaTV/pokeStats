@@ -69,6 +69,7 @@ def getEventType(premiereString):
     return eventString
 
 for i in trange(len(eventUrls)):
+    
     eventUrl = eventUrls[i]
     try:
         r = requests.get(baseUrl + eventUrl, cookies=cj)
@@ -87,7 +88,10 @@ for i in trange(len(eventUrls)):
         playersSelector = '#mainContent > div > div.roundedBucket-mid > div.oneColumn-twoColumns > div.col2 > div > div > div > div > form:nth-child(3) > fieldset:nth-child(5) > div.bot > ol'
         eventDict = getEventInfo(eventContent, playersSelector, eventDict)
 
-        eventDict['Event Type'] = getEventType(eventDict["Premier Event"]) 
+        eventDict['Event Type'] = getEventType(eventDict["Premier Event"])
+        
+        if os.path.exists('data/events/{}.json'.format(eventDict['Tournament ID'])):
+            continue
         
         with open('data/events/{}.json'.format(eventDict['Tournament ID']), 'w') as f:
             json.dump(eventDict, f, ensure_ascii=False, indent=4)
