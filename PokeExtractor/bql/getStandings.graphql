@@ -1,0 +1,25 @@
+# GetStandings GraphQL Query
+mutation GetStandings {
+  getEventInfo: goto(
+    url: "___REPLACE_URL___"
+    waitUntil: load,
+    timeout: 120000
+  ) {
+    status
+  }
+  waitLoad: waitForTimeout(time: 5000) {
+    time
+  }
+  eventsText: html{
+    html
+  }
+  waitRecon: waitForTimeout(time: 5000) {
+    time
+  }
+  reconnectBrowser: reconnect(timeout: 60000) {
+    browserQLEndpoint
+    browserWSEndpoint
+    devtoolsFrontendUrl
+    webSocketDebuggerUrl 
+  }
+}

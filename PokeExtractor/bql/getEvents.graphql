@@ -1,0 +1,80 @@
+mutation VisitPokemonAndLogin {
+  gotoHomepage: goto(url: "https://www.pokemon.com/us", waitUntil: load) {
+    status
+    text
+  }
+  waitNav: waitForNavigation(waitUntil: networkIdle) {
+    status
+  }
+  waitLogin: waitForTimeout(time: 5000) {
+    time
+  }
+  waitCookieSelect: waitForSelector(selector: "#onetrust-accept-btn-handler")
+  {
+    time
+  }
+  checkCookies: if(selector: "#onetrust-accept-btn-handler") {
+    acceptCookies: click(selector: "#onetrust-accept-btn-handler") {
+      time
+    }
+  }
+  checkCaptcha: if(selector: ".h-captcha") {
+    solveCaptcha: solve(type: hcaptcha) {
+      found
+      solved
+      time
+    }
+  }
+  waitNav: waitForNavigation(waitUntil: networkIdle) {
+    status
+  }
+  gotoLogin: goto(
+    url: "https://www.pokemon.com/us/pokemon-trainer-club/login"
+    waitUntil: load
+  ) {
+    status
+  }
+  waitLogin: waitForTimeout(time: 5000) {
+    time
+  }
+  typeUser: type(text: "__REPLACE__USER__", selector: "#email") {
+    time
+  }
+  typePassword: type(text: "__REPLACE__PASSWORD__", selector: "#password") {
+    time
+  }
+  sendForm: click(selector: "#accept") {
+    time
+  }
+  waitForPageLoad: waitForNavigation(waitUntil: networkIdle) {
+    status
+  }
+  waitClickEvents: waitForSelector(
+    selector: "body > div.container > section.section.no-padding-top.user-profile.mosaic > div.column-3.push-1.user-profile-navigation-container > ul:nth-child(2) > li.first.active.expanded > ul > li:nth-child(7) > a"
+  ) {
+    selector
+  }
+  clickEvents: click(
+    selector: "body > div.container > section.section.no-padding-top.user-profile.mosaic > div.column-3.push-1.user-profile-navigation-container > ul:nth-child(2) > li.first.active.expanded > ul > li:nth-child(7) > a"
+  ) {
+    selector
+  }
+  waitForPageLoad: waitForNavigation(waitUntil: networkIdle) {
+    status
+  }
+	getEvents: goto(
+    url:"https://www.pokemon.com/us/pokemon-trainer-club/api/play-pokemon-stats/play_points?cycle=2025&period=56&product=tcg&use_spar_data=false",
+  	waitUntil: load
+  ){
+    status
+  }
+  getText: text{
+    text
+  }
+  reconnectBrowser: reconnect(timeout: 60000) {
+    browserQLEndpoint
+    browserWSEndpoint
+    devtoolsFrontendUrl
+    webSocketDebuggerUrl 
+  }
+}
