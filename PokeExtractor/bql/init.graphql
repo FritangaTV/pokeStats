@@ -1,0 +1,8 @@
+mutation VisitPokemonAndLogin {
+  reconnectBrowser: reconnect(timeout: 60000) {
+    browserQLEndpoint
+    browserWSEndpoint
+    devtoolsFrontendUrl
+    webSocketDebuggerUrl 
+  }
+}

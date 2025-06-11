@@ -88,25 +88,41 @@ def run_visitpokemonandlogin():
     with open(eventsQuery, 'r', encoding='utf-8') as f:
         query = f.read()
 
+    query= query.replace('__REPLACE__USER__', config.default_user)
+    query= query.replace('__REPLACE__PASSWORD__', config.default_pass)
+
     # Prepare the payload
-    payload = {
-        "query": query,
-        "operationName": "VisitPokemonAndLogin",
-    }
+
 
     try:
-        response = requests.post(
+        with open(config.ROOT_DIR / 'bql/init.graphql', 'r', encoding='utf-8') as f:
+            initQuery = f.read()
+        initResponse = requests.post(
             config.ENDPOINT,
             params=config.QUERY_STRING,
             headers=config.HEADERS,
+            json={
+                "query": initQuery
+            }
+        )
+        initData = initResponse.json()
+        print(initData)
+        if initData.get('errors'):
+            print('Errors:', json.dumps(initData['errors'], indent=2))
+            return
+        payload = {
+            "query": query,
+            "operationName": "VisitPokemonAndLogin",
+        }
+        response = requests.post(
+            initData['data']['reconnectBrowser']['browserQLEndpoint'],
+            params=config.QUERY_STRING,
             json=payload
         )
         data = response.json()
-
         if data.get('errors'):
             print('Errors:', json.dumps(data['errors'], indent=2))
             return
-
         with open('../processing/listData.json', 'w') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
         eventsDict = json.loads(data['data']['getText']['text'])
@@ -118,14 +134,17 @@ def run_visitpokemonandlogin():
                 if 'html' in eventData.keys():
                     try:
                         eventUrl = BeautifulSoup(eventData['html'], 'html.parser').a['href']
-                        if 'leagues' in eventUrl:
-                            continue
-                        eventID = os.path.basename(os.path.normpath(eventURL))
-                        if os.path.exists('../data/events/{}.json'.format(eventID)):
-                            continue
-                        eventUrls.append(eventUrl)
-                    except:
-                        continue
+                        print(eventUrl)
+                        if eventUrl is not None:
+                            if 'leagues' in eventUrl:
+                                continue
+                            eventID = os.path.basename(os.path.normpath(eventUrl))
+                            if os.path.exists('../data/events/{}.json'.format(eventID)):
+                                continue
+                            eventUrls.append(eventUrl)
+                    except Exception as e:
+                        print('Error processing event URL:', e)
+                        print(eventData)
 
         print('Found {} events'.format(len(eventUrls)))
         for eventURL in eventUrls:
@@ -199,6 +218,8 @@ if __name__ == '__main__':
     df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
     os.remove('../data/standings/all.csv')
     df.to_csv('../data/standings/all.csv', index=False)
+    
     files = glob.glob('../processing/*')
     for f in files:
         os.remove(f)
+    
