@@ -9,10 +9,6 @@ mutation VisitPokemonAndLogin {
   waitLogin: waitForTimeout(time: 5000) {
     time
   }
-  waitCookieSelect: waitForSelector(selector: "#onetrust-accept-btn-handler")
-  {
-    time
-  }
   checkCookies: if(selector: "#onetrust-accept-btn-handler") {
     acceptCookies: click(selector: "#onetrust-accept-btn-handler") {
       time

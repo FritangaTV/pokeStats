@@ -46,7 +46,8 @@ def getEventType(premiereString):
 def run_getstandings(standingsURL, endpointURL):
     """Execute the GraphQL query and handle the response."""
     # Read the GraphQL query from file
-    standingsFileName = 'bql/test.graphql'
+    
+    standingsFileName = 'bql/getStandings.graphql'
 
     standingsQuery = config.ROOT_DIR / standingsFileName
 
@@ -80,6 +81,7 @@ def run_getstandings(standingsURL, endpointURL):
 def run_visitpokemonandlogin():
     """Execute the GraphQL query and handle the response."""
     # Read the GraphQL query from file
+    print("Getting events")
     eventsFilename = 'bql/getEvents.graphql'
     eventsQuery = config.ROOT_DIR / eventsFilename
 
